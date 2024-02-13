@@ -16,6 +16,7 @@ public class IfElseStatement {
 		{
 			System.out.println("a is euqal to b");
 		}
+		s.close();
 
 	}
 

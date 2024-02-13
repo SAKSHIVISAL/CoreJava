@@ -6,7 +6,7 @@ public class FloatInput {
 	public static void main(String[] args) {
 	Scanner scan= new Scanner(System.in);
 	float x=scan.nextFloat();
-	System.out.printf59.("%.2f",x);
+	System.out.print("%.2f",x);
 	scan.close();
 	
 
