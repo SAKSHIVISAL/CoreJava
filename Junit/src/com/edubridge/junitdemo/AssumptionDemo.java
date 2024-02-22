@@ -24,4 +24,15 @@ class AssumptionDemo {
 
 
 	
+
+	@Test
+	void test2() {
+	int x=10,y=10;
+	//@assumingThat can rather have true or false it will execute
+	Assumptions.assumingThat(x==y,()->{
+		System.out.println("Assuming that");
+	});
+	System.out.println("this method will skip");
+	}
+	
 }
